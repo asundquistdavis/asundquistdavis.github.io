@@ -24,6 +24,7 @@ div.card#contact {
 }
 
 div.card#summary {
+    position: relative;
     width: 40%;
 }
 
@@ -45,25 +46,45 @@ div.card#projects ul {
 }
 
 div.card#projects li {
+    background-color: lightgrey;
     list-style: none;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     left: 0%;
+
+    padding: 1%;
+
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+div.card#summary h2 {
+    width: 80%;
 }
 
 div.card#projects li a {
-    background-color: white;
-    text-decoration: none;
+    display: block;
+    color: black;
 
-    border-radius: 5px;
+    text-decoration: none;
+    width: 100%;
+}
+
+div.card#projects li:hover {
+    background-color: lightslategray;
+}
+
+div.card#projects li a:visited {
+    color: black;
 }
 
 img#profile-pic {
     border-radius: 50%;
+    box-shadow: 2px 2px 5px gray;
     position: absolute;
     width: 100px;
-    height: 100px;
-    top: 7%;
-    left: 63.5%;
+    height: auto;
+    /* top: 7%; */
+    right: 3%;
 }
 
 @media (max-width: 1370px) {
