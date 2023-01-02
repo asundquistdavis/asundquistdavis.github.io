@@ -1,134 +1,51 @@
-.page {
-    background-color: white;
-    padding: 0%;
-    margin: 0%;
-    font-size: 1.3rem;
+body {
+    background-color: rgb(141, 191, 141);
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
 }
 
-div.card {
-    background-color: lightgray;
-    color: black;
+h1 {
+    font-size: 3rem;
+}
 
-    padding: 1%;
+div.header {
+    background-color: lightgrey;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    height: 200px
+}
 
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px gray;
-
-    margin: 2%;
-
+img.profilePic#headerPic {
+    border-radius: 50%;
+    height: 200px;
     float: left;
 }
 
-div.card#contact {
-    width: 20%;
-}
-
-div.card#summary {
+div.headerText {
     position: relative;
-    width: 40%;
+    left: 2%;
+    top: 0%;
+    padding: 0;
 }
 
-div.card#projects {
-    width: 20%;
-}
-
-div.card h2 {
-    font-size: 2.5rem;
-    padding: 0%;
-}
-
-div.card:hover {
-    box-shadow: 5px 5px 5px gray;
-}
-
-div.card#projects ul {
-    padding: 1%;
-}
-
-div.card#projects li {
-    background-color: lightgrey;
-    list-style: none;
-    margin-bottom: 2%;
-    left: 0%;
-
-    padding: 1%;
-
+div.cardA {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: white;
+    box-shadow: 2px 2px 5px grey;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px black;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
 }
 
-div.card#summary h2 {
-    width: 80%;
-}
-
-div.card#projects li a {
-    display: block;
-    color: black;
-
-    text-decoration: none;
-    width: 100%;
-}
-
-div.card#projects li:hover {
-    background-color: lightslategray;
-}
-
-div.card#projects li a:visited {
-    color: black;
-}
-
-img#profile-pic {
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px gray;
-    position: absolute;
-    width: 100px;
-    height: auto;
-    /* top: 7%; */
-    right: 3%;
-}
-
-@media (max-width: 1370px) {
-    div.card#contact {
-        width: 30%;
-
-        margin-left: 0.5%;
-        margin-right: 0.5%;
-    }
-
-    div.card#summary {
-        width: 30%;
-
-        margin-left: 0.5%;
-        margin-right: 0.5%;
-    }
-
-    div.card#projects {
-        width: 30%;
-
-        margin-left: 0.5%;
-        margin-right: 0.5%;
-    } 
-}
-
-@media (max-width: 930px) {
-    div.card#contact {
-        width: 100%;
-
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-
-    div.card#summary {
-        width: 100%;
-
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-
-    div.card#projects {
-        width: 100%;
-
-        margin-left: 0%;
-        margin-right: 0%;
-    } 
+div.cardA#featuredProjects {
+    height: 1000px;
 }
